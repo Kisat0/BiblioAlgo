@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox layoutX="1.0" prefHeight="362.0" prefWidth="401.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="362.0" prefWidth="201.0">
+               <children>
+                  <Label text="Poids ( Kg)" />
+                  <TextField fx:id="poids" alignment="CENTER" promptText="60" />
+               </children>
+            </VBox>
+            <VBox alignment="BOTTOM_CENTER" prefHeight="362.0" prefWidth="181.0">
+               <children>
+                  <Label text="Resultat:" />
+                  <TextField fx:id="ResultIMC" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="362.0" prefWidth="197.0">
+               <children>
+                  <Label text="Tailles (en cm)" />
+                  <TextField fx:id="taille" alignment="CENTER" promptText="170" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Button fx:id="btncalcul" layoutY="376.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="401.0" text="Valider" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.biblioalgo.SoldatController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="198.0">
+         <children>
+            <TreeView fx:id="treeView" prefHeight="405.0" prefWidth="198.0" />
+         </children>
+      </VBox>
+      <VBox fx:id="formusoldat" prefHeight="400.0" prefWidth="198.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="44.0" prefWidth="198.0">
+               <children>
+                  <Label text="Formulaire" />
+               </children>
+            </HBox>
+            <VBox prefHeight="78.0" prefWidth="198.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="58.0" prefWidth="198.0">
+                     <children>
+                        <Label text="Nom:" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="56.0" prefWidth="198.0">
+                     <children>
+                        <TextField />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox fx:id="gradesold" prefHeight="78.0" prefWidth="198.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="58.0" prefWidth="198.0">
+                     <children>
+                        <Label text="Grade:" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="56.0" prefWidth="198.0">
+                     <children>
+                        <TextField />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox fx:id="hpsold" prefHeight="78.0" prefWidth="198.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="58.0" prefWidth="198.0">
+                     <children>
+                        <Label text="Point de vie:" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="56.0" prefWidth="198.0">
+                     <children>
+                        <TextField />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox fx:id="nbsoldat" prefHeight="78.0" prefWidth="198.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="58.0" prefWidth="198.0">
+                     <children>
+                        <Label text="Nombre soldats:" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="56.0" prefWidth="198.0">
+                     <children>
+                        <TextField />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <HBox prefHeight="44.0" prefWidth="198.0">
+               <children>
+                  <Button fx:id="validates" mnemonicParsing="false" prefHeight="42.0" prefWidth="200.0" text="Valider" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</HBox>

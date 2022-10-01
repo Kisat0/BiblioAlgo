@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pageLetsGo" maxHeight="-Infinity" maxWidth="900.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.biblioalgo.PageLetsGo">
+   <children>
+      <VBox prefHeight="650.0" prefWidth="900.0">
+         <children>
+            <VBox prefHeight="150.0" prefWidth="900.0">
+               <children>
+                  <HBox prefHeight="150.0" prefWidth="900.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="220.0" prefWidth="300.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="40.0" prefWidth="150.0" text="Decimal">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="Decimal" alignment="CENTER" prefHeight="40.0" prefWidth="250.0" promptText="546" text="0">
+                                 <VBox.margin>
+                                    <Insets left="40.0" right="40.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="220.0" prefWidth="300.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="40.0" prefWidth="150.0" text="Binaire">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="Binaire" alignment="CENTER" prefHeight="40.0" prefWidth="250.0" promptText="1000100010" text="0">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="40.0" right="40.0" />
+                                 </VBox.margin>
+                              </TextField>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <Button fx:id="btnValiderconv" mnemonicParsing="false" prefHeight="60.0" prefWidth="900.0" text="Valider">
+                     <VBox.margin>
+                        <Insets left="300.0" right="300.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox prefHeight="150.0" prefWidth="900.0">
+               <children>
+                  <HBox prefHeight="370.0" prefWidth="900.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="220.0" prefWidth="300.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="40.0" prefWidth="150.0" text="Decimal">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="decimaltext" alignment="CENTER" prefHeight="40.0" prefWidth="250.0" promptText="542" text="0">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="40.0" right="40.0" />
+                                 </VBox.margin>
+                              </TextField>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="220.0" prefWidth="300.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="40.0" prefWidth="150.0" text="Hexadecimal">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="hexatext" alignment="CENTER" prefHeight="40.0" prefWidth="250.0" promptText="#21E" text="0">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="40.0" right="40.0" />
+                                 </VBox.margin>
+                              </TextField>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <Button fx:id="validerHexa" mnemonicParsing="false" prefHeight="60.0" prefWidth="900.0" text="Valider">
+                     <VBox.margin>
+                        <Insets left="300.0" right="300.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets top="70.0" />
+               </VBox.margin>
+            </VBox>
+            <HBox prefHeight="200.0" prefWidth="900.0">
+               <children>
+                  <VBox prefHeight="250.0" prefWidth="600.0">
+                     <children>
+                        <HBox prefHeight="100.0" prefWidth="600.0">
+                           <children>
+                              <VBox alignment="CENTER" prefHeight="220.0" prefWidth="300.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="40.0" prefWidth="150.0" text="Poids ( Kg)">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="poids" alignment="CENTER" prefHeight="40.0" prefWidth="250.0" promptText="60">
+                                       <VBox.margin>
+                                          <Insets left="50.0" right="50.0" />
+                                       </VBox.margin>
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                              </VBox>
+                              <VBox alignment="CENTER" prefHeight="220.0" prefWidth="300.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="40.0" prefWidth="150.0" text="Taille (cm)">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="taille" alignment="CENTER" prefHeight="40.0" prefWidth="250.0" promptText="60">
+                                       <VBox.margin>
+                                          <Insets left="50.0" right="50.0" />
+                                       </VBox.margin>
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <Button fx:id="btncalcul" mnemonicParsing="false" prefHeight="35.0" prefWidth="600.0" text="Valider">
+                           <VBox.margin>
+                              <Insets left="150.0" right="150.0" top="30.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="300.0">
+                     <children>
+                        <Label alignment="TOP_LEFT" prefHeight="40.0" prefWidth="150.0" text="Résultat : ">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="ResultIMC" alignment="TOP_LEFT" prefHeight="160.0" prefWidth="300.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="70.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
